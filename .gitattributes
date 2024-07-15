@@ -1,2 +1,4 @@
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 mlm_pretraining_soccer/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models filter=lfs diff=lfs merge=lfs -text
+models/balanced_1epoch.pt filter=lfs diff=lfs merge=lfs -text
